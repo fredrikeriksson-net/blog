@@ -1,0 +1,183 @@
+/* MAIN */
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	color: #3498DB;
+	font-size: 2.5em;
+	margin-bottom: 1%;
+}
+
+
+/* SORT */
+
+a.date {
+	color: #3498db;
+	margin-right: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 1%;
+}
+
+a.date:hover {
+	color: #FFF;
+	background-color: #3498db;
+}
+
+
+/* ADMIN MENU */
+
+a.admin {
+	color: #D2D7D3;
+	margin-right: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.admin:hover {
+	color: #000;
+}
+
+a.active {
+	color: #000;
+	margin-right: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/* POSTS */
+
+article.blogPost {
+	background-color: #F2F1EF;
+	padding: 2%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-radius: 5px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: #3498db;
+	margin: 0;
+	padding: 0;
+}
+
+h2.header{
+	margin-top: 20px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	color: #6c7a89;
+}
+
+span.date {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	color: #6c7a89;
+}
+
+footer {
+	background-color: #DADFE1;
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 2px;
+}
+
+
+span.author {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	margin-right: 10px;
+}
+
+span.timestamp {
+	font-family: 'Open Sans', sans-serif;
+	color: #6C7A89;
+	margin-right: 10px;
+}
+
+
+/* ADMIN */
+
+span.edit a {
+	color: #D2D7D3;
+	margin-right: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	margin-left: 1%;
+}
+
+span.edit a:hover {
+	color: #000;
+	background-color: transparent;
+
+}
+
+
+/* ERROE MESSAGES*/ 
+
+h2.error {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: red;
+	margin: 0;
+}
+
+
+/* FORMS */
+input {
+	background-color: #f8f6f6;
+	border: 0px;
+	border-bottom: 3px solid #CCC;
+	padding: 10px;
+}
+
+textarea {
+	background-color: #f8f6f6;
+	border: 0px;
+	border-bottom: 3px solid #CCC;
+	padding: 10px;
+}
+
+input.ok {
+	background-color: #f8f6f6;
+	border: 0px;
+	border: 2px solid #CCC;
+	padding: 10px;
+}
+
+input.ok:hover {
+	background-color: #87D37C;
+	color: #000;
+	border: 0px;
+	border: 2px solid #CCC;
+	padding: 10px;
+}
+
+input.warning {
+	background-color: #f8f6f6;
+	border: 0px;
+	border: 2px solid #CCC;
+	padding: 10px;
+}
+
+input.warning:hover {
+	background-color: #EC644B;
+	color: #000;
+	border: 0px;
+	border: 2px solid #CCC;
+	padding: 10px;
+}
+
